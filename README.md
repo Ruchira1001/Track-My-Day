@@ -1,0 +1,2 @@
+# Track-My-Day
+Track My Day acts like a personalised daily activity tracker which comes with a Calendar which keeps the track of your schedule. User must sign up and login to mark the events in the Calendar. Users can also register using google sign up. User can mark their free time, by clicking on any date. There are fields such as Subject, Start Time, End Time ,Description, Is Full day. User can also edit or remove an event. User can able to view its individual record by signing up.
