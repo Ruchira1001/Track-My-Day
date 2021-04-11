@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Events] (
+    [EventID]     INT            IDENTITY (1, 1) NOT NULL,
+    [Subject]     NVARCHAR (200) NOT NULL,
+    [Description] NVARCHAR (300) NULL,
+    [Start]       DATETIME       NOT NULL,
+    [End]         DATETIME       NULL,
+    [ThemeColor]  NVARCHAR (10)  NULL,
+    [IsFullDay]   BIT            NOT NULL,
+    [ID]          NVARCHAR (100) NULL,
+    PRIMARY KEY CLUSTERED ([EventID] ASC)
+);
+
